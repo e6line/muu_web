@@ -11,20 +11,38 @@
 	width: 935px;
 }
 
-.Cartoon_Summary{
+	.Cartoon_Summary{
 
-}
-.Cartoon_Summary ul{
-	
-}
-.Cartoon_Summary li.Summary_Big_Pic{
-	float: left;
-	width: 230px;
-}
-.Cartoon_Summary li.Summary_Info{
-	float: right;
-	width: 710px;
-}
+	}
+	.Cartoon_Summary ul{
+		
+	}
+	.Cartoon_Summary li.Summary_Big_Pic{
+		float: left;
+		width: 230px;
+		position: relative;
+	}
+		.Cartoon_Summary li.Summary_Big_Pic a{
+			width: 200px;
+			height: 280px;
+			display: block;
+			line-height: 0;
+		}
+		.Cartoon_Summary li.Summary_Big_Pic a img{
+			width: 200px;
+			height: 280px;
+		}
+		.Cartoon_Summary li.Summary_Big_Pic i{
+			position: absolute;
+			width: 88px;
+			height: 51px;
+			background: url();
+		}
+
+	.Cartoon_Summary li.Summary_Info{
+		float: right;
+		width: 710px;
+	}
 
 /*Cartoon_Box_Right*/
 .Cartoon_Box_Right{
