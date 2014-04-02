@@ -1,0 +1,33 @@
+/*
+*	Theme Name: sub
+*	Author: YiBing Wang
+*	Version: 1.0
+*	Time: 2014-04-02
+*/
+
+/*Cartoon_Box_Left*/
+.Cartoon_Box_Left{
+	float: left;
+	width: 935px;
+}
+
+.Cartoon_Summary{
+
+}
+.Cartoon_Summary ul{
+	
+}
+.Cartoon_Summary li.Summary_Big_Pic{
+	float: left;
+	width: 230px;
+}
+.Cartoon_Summary li.Summary_Info{
+	float: right;
+	width: 710px;
+}
+
+/*Cartoon_Box_Right*/
+.Cartoon_Box_Right{
+	float: right;
+	width: 230px;
+}
