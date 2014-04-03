@@ -4,48 +4,678 @@
 *	Version: 1.0
 *	Time: 2014-04-02
 */
+button{
+	outline-style: none; 
+}
+.Review_checked, .Reviex_label{
+	vertical-align: middle;
+}
+.Review_checked{
+	margin-right: 2px;
+}
+.Reviex_label{
+	font-size: 12px;
+}
+
+
+.Cartoon_Box{
+	width: 1200px;
+	margin: 0 auto;
+}
 
 /*Cartoon_Box_Left*/
 .Cartoon_Box_Left{
 	float: left;
 	width: 935px;
 }
-
+	/*Cartoon_Summary*/
 	.Cartoon_Summary{
+		margin-bottom: 20px 
+	}
 
+		.Cartoon_Summary ul{
+			
+		}
+			/*Summary_Big_Pic*/
+			.Cartoon_Summary li.Summary_Big_Pic{
+				float: left;
+				width: 200px;
+				padding-left:30px; 
+				position: relative;
+			}
+				.Cartoon_Summary li.Summary_Big_Pic a{
+					width: 200px;
+					height: 280px;
+					display: block;
+					line-height: 0;
+				}
+				.Cartoon_Summary li.Summary_Big_Pic a img{
+					width: 200px;
+					height: 280px;
+				}
+				.Cartoon_Summary li.Summary_Big_Pic i{
+					position: absolute;
+					width: 80px;
+					height: 26px;
+					padding: 34px 0 0 15px;
+					top: 185px;
+					left: 0;
+					background: url(../../images/p.png) no-repeat;
+				}
+
+			/*Summary_Info*/
+			.Cartoon_Summary li.Summary_Info{
+				float: right;
+				width: 680px;
+			}
+				.Cartoon_Summary li.Summary_Info {
+					padding-top: 0px;
+				}
+					.Summary_Info_Title{
+						height: 60px;
+						line-height: 60px;
+					}
+					.Summary_Info_Title h3{
+						font-size: 18px;
+						font-weight: bold;
+						display: inline-block;
+					}
+					.Summary_Info_Title span{
+						display: inline-block;
+						font-size: 12px;
+						line-height: 12px;
+						padding: 5px;
+						background: #fff;
+						border: 1px solid #eee;
+						-moz-border-radius: 5px;
+					    -webkit-border-radius: 5px;
+					    border-radius: 5px;
+					}
+					.Summary_Info_Author{
+						margin-bottom: 30px; 
+					}
+					.Summary_Info_Author h4{
+						height: 30px;
+						line-height: 30px;
+						font-size: 12px;
+					}
+					.Summary_Info_Author p{
+						height: 30px;
+						line-height: 30px;
+						font-size: 12px;
+						color: #656565;
+					}
+					.Summary_Info_Author h4 span{
+						margin-right: 20px;
+						display: inline-block;
+					}
+					.comment_num a, .praise_num a{
+						display: inline-block;
+						padding-left:14px; 
+					}
+					.comment_num a{
+						background: url(../../images/i1.png) left center no-repeat
+					}
+					.praise_num a{
+						background: url(../../images/i2.png) left center no-repeat;
+					}
+					.Summary_Info_Tag{
+						border-top: 1px solid #d8d8d8;
+						position: relative;
+					}
+					.Summary_Info_Tag h4{
+						font-size: 14px;
+						height: 36px;
+						line-height: 36px;
+						margin-bottom: 20px; 
+					}
+					.Summary_Info_Tag h4 a{
+						margin-left: 10px;
+					}
+					.Summary_Collection{
+						position: absolute;
+						width: 70px;
+						height: 70px;
+						top: -20px;
+						right: 20px;
+						line-height: 100px;
+						overflow: hidden;
+						text-align: center;
+						background: #a0d468 url(../../images/i3.png) center 15px no-repeat;
+						color: #fff;
+						-moz-border-radius: 35px;
+					    -webkit-border-radius: 35px;
+					    border-radius: 35px;
+					    cursor: pointer;
+					    -moz-box-shadow:-2px -2px 2px #999 ;            
+						-webkit-box-shadow:-2px -2px 2px #999 ;         
+						box-shadow:-2px -2px 2px #999 ;    
+					}
+					.Summary_Collection:hover{
+						background: #8ec355 url(../../images/i3.png) center 15px no-repeat;
+					    -moz-box-shadow:-2px -2px 2px #dcdbdb ;            
+						-webkit-box-shadow:-2px -2px 2px #dcdbdb ;         
+						box-shadow:-2px -2px 2px #dcdbdb ;    
+					}
+					.Summary_Share span{
+						display: inline-block;
+						width: 245px;
+						height: 45px;
+						padding-top: 10px;
+						color: #fff;
+						background: #febf37;
+						-moz-border-radius: 10px;
+					    -webkit-border-radius: 10px;
+					    border-radius: 10px;
+					    vertical-align: middle;
+					    overflow: hidden;
+					}
+					.Summary_Share strong.dib{
+						height: 36px;
+						padding:0 15px 0 35px;
+						border-right: 1px solid #e19b03; 
+						background: url(../../images/i4.png) 15px center no-repeat; 
+						font-weight: 100;
+						line-height: 36px;
+						font-size: 18px;
+					}
+					.Summary_Share i{
+						font-size:0;
+						padding-top:3px; 
+						margin: 0 10px;
+						height: 36px;
+						vertical-align: middle;
+						line-height: 0
+					}
+					.Summary_Share i img{
+						height: 30px;
+						width: 30px;
+					}
+					.Summary_Share em{
+						vertical-align: middle;
+					}
+
+	/*Cartoon_Operation_wrap*/
+	.Cartoon_Operation_wrap{
+		margin-bottom:20px;
 	}
-	.Cartoon_Summary ul{
-		
+		.Cartoon_Operation_wrap ul{
+			
+		}
+			.Cartoon_Operation_wrap ul li{
+				width: 459px;
+				height: 52px;
+				-moz-border-radius: 10px;
+			    -webkit-border-radius: 10px;
+			    border-radius: 10px;
+				-webkit-box-shadow: 0 0 4px rgba(170,170,170,.75);
+				-moz-box-shadow: 0 0 4px rgba(170,170,170,.75);
+				box-shadow: 0 0 4px rgba(170,170,170,.75);   
+			}
+			.Cartoon_Operation_wrap ul li.read_btn{
+				float: left;
+			}
+			.Cartoon_Operation_wrap ul li.read_btn a{
+				display: block;
+				width: 459px;
+				height: 52px;
+				text-align: center;
+				background: url(../../images/read_btn_bg.png) no-repeat;
+			}
+			.Cartoon_Operation_wrap ul li.new_chapter_btn{
+				float: right;
+			}
+			.Cartoon_Operation_wrap ul li.new_chapter_btn a{
+				display: block;
+				width: 390px;
+				height: 52px;
+				padding-left: 69px;
+				line-height: 52px;
+				font-size: 18px;
+				text-align: left;
+				background: url(../../images/new_chapter_btn_bg.png) no-repeat;
+			}
+
+
+	/*Cartoon_Chapter_Box*/		
+	.Cartoon_Chapter_Box{
+		-moz-border-radius: 10px;
+	    -webkit-border-radius: 10px;
+	    border-radius: 10px;
+	    background: #fff;
+	    border: 1px solid #ddd;
+		-webkit-box-shadow: 0 0 4px rgba(170,170,170,.75);
+		-moz-box-shadow: 0 0 4px rgba(170,170,170,.75);
+		box-shadow: 0 0 4px rgba(170,170,170,.75);  
+		margin-bottom: 20px;
 	}
-	.Cartoon_Summary li.Summary_Big_Pic{
-		float: left;
-		width: 230px;
-		position: relative;
-	}
-		.Cartoon_Summary li.Summary_Big_Pic a{
-			width: 200px;
-			height: 280px;
+		.Chapter_Tab{
+			height: 45px;
+			background: #f7f7f7;
+			border-bottom: 1px solid #ddd;
+		}
+			.Chapter_Tab a{
+				float: left;
+				font-size: 16px;
+				padding: 0 30px;
+				line-height: 45px;
+				border-left:  1px solid #ddd;
+			}
+			.Chapter_Tab a:first-child{
+				border-left:  none;
+			}
+			.Chapter_Tab a.active{
+				background: #fff;
+				border-bottom: 1px solid #fff;
+			}
+			.Chapter_Tab_Op{
+				float: right;
+				padding: 11px;
+			}
+			.Chapter_Tab_Op button{
+				padding: 2px 8px;
+				background: #f7f7f7;
+				border: none;
+				font-size: 14px;
+				color: #000;
+				-moz-border-radius: 10px;
+			    -webkit-border-radius: 10px;
+			    border-radius: 10px;
+			    margin: 0 2px;
+			}
+			.Chapter_Tab_Op button.active{
+				background: #c1c2c2;
+				color: #fff;
+			}
+
+		.Chepter_Selected{
+			padding:5px 2px;
+		}
+		.Chepter_Selected ul{
+			display: none;
+		}
+		.Chepter_Selected ul.active{
 			display: block;
-			line-height: 0;
 		}
-		.Cartoon_Summary li.Summary_Big_Pic a img{
-			width: 200px;
-			height: 280px;
+		.Chepter_Selected li{
+			float: left;
+			width: 218px;
+			height: 26px;
+			background: #f2f2f2;
+			border: 1px solid #dadada;
+			-moz-border-radius: 5px;
+		    -webkit-border-radius: 5px;
+		    border-radius: 5px;
+		    margin:8px 5px;
 		}
-		.Cartoon_Summary li.Summary_Big_Pic i{
-			position: absolute;
-			width: 88px;
-			height: 51px;
-			background: url();
+		.Chepter_Selected li a{
+			display: inline-block;
+			width: 208px;
+			height: 26px;
+			padding:0 5px;
+			line-height: 26px;
+			font-size: 14px;
+			text-decoration: none;
+			text-align: left;
+			overflow: hidden;
+		}
+		.Chepter_Selected li a:hover{
+			background: #fff;
 		}
 
-	.Cartoon_Summary li.Summary_Info{
-		float: right;
-		width: 710px;
+	/*Cartoon_Review_Box*/	
+	.Cartoon_Review_Box{
+		-moz-border-radius: 10px;
+	    -webkit-border-radius: 10px;
+	    border-radius: 10px;
+	    background: #fff;
+	    border: 1px solid #ddd;
+		-webkit-box-shadow: 0 0 4px rgba(170,170,170,.75);
+		-moz-box-shadow: 0 0 4px rgba(170,170,170,.75);
+		box-shadow: 0 0 4px rgba(170,170,170,.75);  
+		margin-bottom: 20px;
 	}
+		.Cartoon_Review_Box h3{
+			height: 45px;
+			line-height: 45px;
+			font-size: 18px;
+			padding-left: 20px; 
+		}
+		.Cartoon_Review_Box ul.Speak_Box{
+			width: 900px;
+			margin: 0 auto;
+			position: relative;
+		}
+			.Cartoon_Review_Box ul.Speak_Box li{
+				padding:10px 0;
+				border-bottom: 1px solid #d3d3d3;
+			}
+			.Cartoon_Review_Box ul.Speak_Box li dl{
+			}
+				.Review_tx{
+					float: left;
+					width: 70px;
+					height: 70px;
+					position: relative;
+					margin-right: 20px;
+					-moz-border-radius: 35px;
+				    -webkit-border-radius: 35px;
+				    border-radius: 35px;
+					-webkit-box-shadow: -2px -2px 5px rgba(170,170,170,.75);
+					-moz-box-shadow: -2px -2px 5px rgba(170,170,170,.75);
+					box-shadow: -2px -2px 5px rgba(170,170,170,.75);  
+				}
+					.Review_tx span{
+						width: 70px;
+						height: 70px;
+						-moz-border-radius: 35px;
+					    -webkit-border-radius: 35px;
+					    border-radius: 35px;
+					    display: block;
+					    line-height: 0;
+					    overflow: hidden;
+					}
+					.Review_tx i{
+						position: absolute;
+						right: 2px;
+						bottom: 2px;
+						width: 10px;
+						height: 10px;
+						border: 2px #fff solid;
+						-moz-border-radius: 14px;
+					    -webkit-border-radius: 14px;
+					    border-radius: 14px;
+					}
+						.Review_tx i.madam{
+							background: #ff98ba;
+						}
+						.Review_tx i.man{
+							background: #99ccff;
+						}
+					.Cartoon_Review_Box ul.Speak_Box li dl dd{
+						margin-left: 90px; 
+						overflow: hidden;
+						zoom:1;
+					}
+					.Cartoon_Review_Box ul.Speak_Box li dl dd span{
+						margin-right: 20px; 
+						font-size: 14px;
+						height: 28px;
+						line-height: 28px;
+					}
+					.Cartoon_Review_Box ul.Speak_Box li dl dd.Speak_Text{
+						width: 720px;
+						font-size: 16px;
+						line-height: 26px;
+						margin-bottom: 5px;
+					}
+					.Cartoon_Review_Box ul.Speak_Box li dl dd.Speak_Add, .Cartoon_Review_Box ul.Speak_Box li dl dd.Speak_Add a{
+						font-size: 14px;
+						color: #8b8b8b;
+					}
+					.Cartoon_Review_Box ul.Speak_Box li dl dd.Speak_Add a:hover{
+						font-size: 14px;
+						color: #f58945;
+					}
+
+			.Cartoon_Review_Box ul.Speak_Box button{
+				position: absolute;
+				padding: 5px 20px;
+				color: #fff;
+				background: #ff7243;
+				-moz-border-radius: 5px;
+			    -webkit-border-radius: 5px;
+			    border-radius: 5px;
+			    border: none;
+			    right: 0;
+			    top: 30px;
+			}
+			.Cartoon_Review_Box ul.Speak_Box button:hover{
+				background: #ff8d67
+			}
+			.Review_Box{
+				padding: 10px 10px 10px 90px;
+				position: relative;
+			}
+			.Review_text{
+				padding-top: 10px;
+				border-top: 1px dashed #d3d3d3
+			}
+			.Review_Box textarea{
+				width: 778px;
+				height: 78px;
+				padding: 10px;
+				-moz-border-radius: 5px;
+			    -webkit-border-radius: 5px;
+			    border-radius: 5px;
+			    border: 1px solid #d3d3d3;
+			}
+			.Review_Box div.Textarea_Plug_wrap{
+				position: absolute;
+				right:11px;
+				bottom:11px;
+			}
+			.Review_Box div.Textarea_Plug{
+				float: right;
+				background: #eee;
+				padding: 2px 10px 2px 30px;
+				cursor: pointer;
+				margin-left: 5px; 
+			}
+			.Review_Box div.Upload_Pic{
+				background: #eee url(../../images/up_pic.gif) 5px center no-repeat;
+			}
+			.Review_Box div.Add_Look{
+				background: #eee url(../../images/bq.gif) 5px center no-repeat;
+			}
+
+			.Review_btn{
+				padding-top: 10px;
+				text-align: right;
+			}
+			.Review_btn input{
+				padding: 5px 20px;
+				color: #fff;
+				background: #ff7243;
+				-moz-border-radius: 5px;
+			    -webkit-border-radius: 5px;
+			    border-radius: 5px;
+			    border: none;
+			    margin-left: 10px;
+			    cursor: pointer;
+			}
+			.Review_btn input:hover{
+				background: #ff8d67
+			}
+			.Review_btn input.s_btn{
+				background: #acc3d1;
+			}
+			.Review_btn input.s_btn:hover{
+				background: #b9cbd6;
+			}
+			.Review_Con{
+				padding: 10px 20px;
+				border-top: 1px dashed #d3d3d3
+			}
+			.Review_Con h4{
+				font-size: 12px;
+				margin-bottom:10px;
+			}
+			.Review_Con h4 span{
+				color: #999
+			}
+			.Review_Con p{
+				font-size: 12px;
+				line-height: 18px;
+				color:#333;
+			}
+	/*Review_Page_Wrap*/	
+	.Review_Page_Wrap{
+		padding: 20px 0;
+		text-align: center;
+	}
+		.Review_Page_Box{
+			display: inline-block;
+			margin: 0 auto;
+			width: auto;
+			height: auto;
+		}
+			.Review_Page_Box a, .Review_Page_Box span{
+				display: inline-block;
+				padding: 0 8px;
+				background: #fff;
+				border: 1px solid #bbb;
+				cursor: pointer;
+				height: 20px;
+				line-height: 20px;
+				-moz-border-radius: 10px;
+			    -webkit-border-radius: 10px;
+			    border-radius: 10px;
+			    text-decoration: none;
+			}
+			.Review_Page_Box a:hover{
+				background: #ccc;
+				color: #fff;
+				border: 1px solid #bbb;
+			}
+			.Review_Page_Box span.prev_page{
+				padding-left: 20px;
+				background: #fff url(../../images/prev.gif) 10px center no-repeat;
+			}
+			.Review_Page_Box span.next_page{
+				padding-right: 20px;
+				background: #fff url(../../images/next.gif) 57px center no-repeat;
+			}
+			.Review_Page_Box span.prev_page:hover{
+				color: #fff;
+				background: #ccc url(../../images/prev_hover.gif) 10px center no-repeat;
+			}
+			.Review_Page_Box span.next_page:hover{
+				color: #fff;
+				background: #ccc url(../../images/next_hover.gif) 57px center no-repeat;
+			}
+
+	/*Review_Speak_Box*/
+	.Review_Speak_Box{
+		width: 900px;
+		margin: 0 auto;
+	}
+	.Review_Textareas dd{
+		padding-left: 90px;
+		margin-bottom: 10px;
+	}
+	.Review_Submit_Btn{
+		padding: 5px 20px;
+		color: #fff;
+		background: #b6b6b6;
+		-moz-border-radius: 5px;
+	    -webkit-border-radius: 5px;
+	    border-radius: 5px;
+	    border: none;
+	}
+	.Review_Submit_Btn:hover{
+		background: #c0c0c0;
+	}
+
+
 
 /*Cartoon_Box_Right*/
 .Cartoon_Box_Right{
 	float: right;
 	width: 230px;
 }
+
+	.Cartoon_Author_Info{
+		-moz-border-radius: 10px;
+	    -webkit-border-radius: 10px;
+	    border-radius: 10px;
+		padding:10px;
+	    background: #fff;
+	    border: 1px solid #ddd;
+		-webkit-box-shadow: 0 0 4px rgba(170,170,170,.75);
+		-moz-box-shadow: 0 0 4px rgba(170,170,170,.75);
+		box-shadow: 0 0 4px rgba(170,170,170,.75);  
+		margin-bottom: 20px;
+	}
+		.Cartoon_Author_Info .Review_tx{
+			margin-right: 5px;
+		}
+		.Cartoon_Author_Info button{
+			padding: 2px 10px;
+			background: #eee;
+			-moz-border-radius: 5px;
+		    -webkit-border-radius: 5px;
+		    border-radius: 5px;
+		    border: none;
+		}
+		.Cartoon_Author_Info button:hover{
+			background: #f7f7f7;
+		}
+		.Cartoon_Author_Info dt{
+			margin-bottom: 5px;
+		}
+	
+
+	.Cartoon_Recommend{
+
+	}
+		.Recommend_Tab {
+			margin-bottom: 10px;
+		}
+			.Recommend_Tab li{
+				float: left;
+				padding: 5px 12px;
+				cursor: pointer;
+			}
+			.Recommend_Tab li.active{
+				background: #eee;
+				position: relative;
+			}
+			.Recommend_Tab li i{
+				display: none;
+				width: 9px;
+				height: 4px;
+				position: absolute;
+				bottom: -4px;
+				left: 35px;
+				z-index: 99;
+				background: url(../../images/xb.gif) no-repeat;
+			}
+			.Recommend_Tab li.active i{
+				display: block;
+			}
+
+		.Recommend_Selected{
+
+		}
+		.Recommend_Selected ul{
+			display: none;
+		}
+		.Recommend_Selected ul.active{
+			display: block;
+		}
+		.Recommend_Selected li{
+			padding:15px 0;
+			border-bottom: 1px solid #d3d3d3;
+		}
+		.Recommend_Selected ul li:last-child{
+			border-bottom: none;
+		}
+		.Recommend_Selected li dt{
+			width: 92px;
+			height: 120px;
+			display: inline-block;
+			margin-right: 5px;
+			vertical-align: middle;
+		}
+		.Recommend_Selected li dd{
+			padding: 5px;
+			display: inline-block;
+		}
+		.Recommend_Selected li dd h3{
+			font-size: 20px;
+		}
+		.Recommend_Selected li dd p a{
+			font-size: 14px;
+			color: #6c6c6c;
+		}
