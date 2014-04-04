@@ -1,0 +1,255 @@
+/*
+*	Theme Name: substance
+*	Author: YiBing Wang
+*	Version: 1.0
+*	Time: 2014-04-02
+*/
+
+body{
+	height: 100%;
+}
+
+/* Mini_header */
+.Mini_header{
+	width: 1200px;
+	height: 55px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+	.M_H_L{
+		float: left;
+	}
+		.Mini_logo{
+			float: left;
+			padding-top: 7px;
+			margin-right: 20px;
+		}
+		.Mini_nav{
+			float: left;
+			padding-top: 22px;
+		}
+			.Mini_nav ul li {
+			  position: relative;
+			  float: left;
+			  display: inline-block;
+			  border: 0;
+			  font-size: 20px;
+			}
+			.Mini_nav ul li {
+			  display: inline;
+			}
+			.Mini_nav a {
+			  padding: 10px;
+			  font-weight: 700;
+			}
+			.Mini_nav a:hover {
+			  background: none;
+			  color: #f58945;
+			  text-decoration: none;
+			}
+			.Mini_nav .sub-nav {
+			  font-size: 14px;
+			}
+			.Mini_nav .sub-nav a {
+			  position: relative;
+			  top: 7px;
+			  left: 0;
+			  padding: 13px 10px;
+			  font-weight: 300;
+			}
+			.Mini_nav .actived a {
+			  background: none;
+			  color: #f58945;
+			}
+	.M_H_R{
+		float: right;
+		padding-top: 20px;
+	}
+		.M_H_R .dib{
+			font-size: 16px;
+			vertical-align: middle;
+			padding: 5px;
+		}
+
+/* Progress_bar_wrap */
+.Progress_bar_wrap{
+	height: 34px;
+	background: #f5f5f5;
+	border-top: 1px solid #e8e7e6;
+	border-bottom: 1px solid #e8e7e6;
+}
+	.P_B_B{
+		width: 1200px;
+		margin: 0 auto;
+	}
+	.P_B_L{
+		float:left;
+	}
+		.P_B_L h3{
+			float: left;
+			width: 170px;
+			height: 34px;
+			line-height: 34px;
+			overflow: hidden;
+			margin-right: 5px;
+		}
+		.P_B_L .pro_bar_box{
+			float: left;
+			padding-top: 6px;
+		}
+			.P_B_L .pro_bar_box .pro_bar{
+				display: inline-block;
+				width: 800px;
+				height: 5px;
+				background: #ffd8c7;
+				font-size: 0px;
+				line-height: 0px;
+				vertical-align: middle;
+				margin-right: 5px;
+			}
+				.P_B_L .pro_bar_box .pro_bar .pro_bar_pro{
+					width: 1%;
+					font-size: 0px;
+					line-height: 0px;
+					height: 5px;
+					background: #ef6a30;
+					position: relative;
+				}
+				.P_B_L .pro_bar_box .pro_bar .pro_bar_pro img{
+					position: absolute;
+					right: -5px;
+					top: -5px;
+					height: 15px;
+					width: 15px;
+				}
+			.P_B_L .pro_bar_box span{
+				display: inline-block;
+				font-size: 14px;
+				line-height: 14px;
+				height: 14px;
+				vertical-align: middle;
+			}
+	.P_B_R{ 
+		float: right;
+		padding-top: 5px;
+	}
+		.P_B_R span a{
+			padding: 3px 10px;
+			background: #fff;
+			border: 1px solid #cecece;
+			-moz-border-radius: 5px;
+		    -webkit-border-radius: 5px;
+		    border-radius: 5px;
+		    text-decoration: none;
+		}
+		.P_B_R span a.l{
+			border-right:none;
+			-moz-border-radius: 5px 0 0 5px;
+		    -webkit-border-radius: 5px 0 0 5px;
+		    border-radius: 5px 0 0 5px;
+		}
+		.P_B_R span a.r{
+			border-left:none;
+			-moz-border-radius: 0 5px 5px 0;
+		    -webkit-border-radius: 0 5px 5px 0;
+		    border-radius: 0 5px 5px 0;
+		}
+		.P_B_R span a.active{
+			background: #646464;
+			color: #ccc;
+		}
+
+/* Cartoon_Con_Box */
+.Cartoon_Con_Box{
+	overflow: hidden;
+	zoom: 1;
+	position: relative;
+}
+	.Cartoon_Con{
+		width: 1200px;
+		margin: 0 auto;
+		padding:20px 0;
+		text-align: center;
+		z-index: 5;
+		position: relative;
+	}
+		.cartoon_con_pic{
+			position: relative;
+		}
+			.cartoon_con_pic img{
+				max-width: 1200px;
+				height: auto;
+			}
+			.con_box_menu{
+				position: fixed;
+				_position: absolute;
+				width: 94px;
+				height: 564px;
+				text-align: center;
+				z-index: 9;
+				top: 130px;
+				right: 50%;
+			}
+			.b_m_one{
+				width: 100%;
+				height: 138px;
+				background: #ff7243;
+			}
+			.b_m_one li{
+
+			}
+			.b_m_one li a{
+				
+			}
+
+
+	.Cartoon_Con_Box a.prev_box, .Cartoon_Con_Box a.next_box{
+		position: absolute;
+		width: 50%;
+		height: 100%;
+		left: 0;
+		top: 0;
+		z-index: 8;
+	}
+	.Cartoon_Con_Box a.next_box{
+		left:50%;
+	}
+	.Cartoon_Con_Box a:hover span{
+		display: block;
+	}
+		.click_layer span.prev_btn, .click_layer span.next_btn{
+			display: none;
+			position: fixed;
+			_position: absolute;
+			width: 140px;
+			height: 140px;
+			top:50%;
+			left: 50%;
+			margin-top:-70px;
+			background: url(../../images/btn_bg.png);
+			-moz-border-radius: 5px;
+		    -webkit-border-radius: 5px;
+		    border-radius: 5px;
+		}
+
+		.click_layer span.prev_btn{
+			margin-left: -570px;
+		}
+		.click_layer span.next_btn{
+			margin-left: 430px;
+		}
+			.click_layer span em{
+				display: block;
+				width: 140px;
+				height: 140px;
+			}
+			.click_layer span.prev_btn em{
+				background: url(../../images/prev_btn_bg.png) center center no-repeat;
+			}
+			.click_layer span.next_btn em{
+				background: url(../../images/next_btn_bg.png) center center no-repeat;
+			}
+
+
+
+
