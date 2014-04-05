@@ -9,7 +9,7 @@
 
 </head>
 
-<body>
+<body class="off">
 <!--mini header-->
 <div class="Mini_header base-clear">
 	<div class="M_H_L base-clear">
@@ -54,17 +54,17 @@
 	<div class="P_B_B base-clear">
 		<div class="P_B_L">
 			<h3>纳尼兔纳尼兔纳尼兔（漫悠悠独家首发）</h3>
-			<div class="pro_bar_box">
+			<div id="pro_bar" class="pro_bar_box">
 				<div class="pro_bar">
-					<div class="pro_bar_pro"><img src="images/bar_right.gif" alt="" /></div>
+					<div id="pro_bar_show" class="pro_bar_pro"><img src="images/bar_right.gif" alt="" /></div>
 				</div>
 				<span><em>3</em>/<em>4</em></span>
 			</div>
 		</div>
 		<div class="P_B_R">
 			<span class="dib-wrap">
-				<a class="dib l" href="javascript:;">开灯</a>
-				<a class="active dib r" href="javascript:;">关灯</a>
+				<a id="on" class="dib l" href="javascript:;">开灯</a>
+				<a id="off" class="active dib r" href="javascript:;">关灯</a>
 			</span>
 		</div>
 	</div>
@@ -76,32 +76,6 @@
 	<div class="Cartoon_Con">
 		<div class="cartoon_con_pic">
 			<img src="images/mh1.jpg" alt="" />
-			<div class="con_box_menu">
-				<ul class="b_m_one">
-					<li>
-						<a href="javascript:;"></a>
-					</li>
-					<li>
-						<a href="javascript:;"></a>
-					</li>
-				</ul>
-				<ul class="b_m_two">
-					<li>
-						<a href="javascript:;"></a>
-					</li>
-					<li>
-						<a href="javascript:;"></a>
-					</li>
-				</ul>
-				<ul class="b_m_three">
-					<li>
-						<a href="javascript:;"></a>
-					</li>
-					<li>
-						<a href="javascript:;"></a>
-					</li>
-				</ul>
-			</div>
 		</div>
 	</div>
 	<a href="#" title="上一页" class="prev_box click_layer">
@@ -110,8 +84,218 @@
 	<a href="#" title="下一页" class="next_box click_layer">
 		<span class="next_btn"><em></em></span>
 	</a>
+	<div class="con_box_menu">
+		<ul class="b_m_one">
+			<li class="parent_wrap">
+				<a class="con_menu_icon catalog_icon" href="javascript:;"></a>
+				<div class="con_menu_tips">
+					<span>目录</span>
+					<div class="con_menu_tips_icon tips_down"></div>
+				</div>
+				<dl class="catalog_dl">
+					<dt>目录</dt>
+					<dd><em></em><a href="#">大家其实都在等后天继续休假(1P)</a></dd>
+					<dd><em></em><a href="#">大家其实都在等后天继续休假(1P)</a></dd>
+					<dd><em></em><a href="#">大家其实都在等后天继续休假(1P)</a></dd>
+					<dd><em></em><a href="#">大家其实都在等后天继续休假(1P)</a></dd>
+					<dd><em></em><a href="#">大家其实都在等后天继续休假大家其实都在等后天继续休假大家其实都在等后天继续休假(1P)</a></dd>
+					<dd><em></em><a href="#">大家其实都在等后天继续休假(1P)</a></dd>
+					<dd><em></em><a href="#">大家其实都在等后天继续休假(1P)</a></dd>
+					<dd><em></em><a href="#">大家其实都在等后天继续休假(1P)</a></dd>
+					<dd><em></em><a href="#">大家其实都在等后天继续休假(1P)</a></dd>
+					<dd><em></em><a href="#">大家其实都在等后天继续休假大家其实都在等后天继续休假大家其实都在等后天继续休假(1P)</a></dd>
+					<dd><em></em><a href="#">大家其实都在等后天继续休假(1P)</a></dd>
+					<dd><em></em><a href="#">大家其实都在等后天继续休假(1P)</a></dd>
+					<dd><em></em><a href="#">大家其实都在等后天继续休假(1P)</a></dd>
+					<dd><em></em><a href="#">大家其实都在等后天继续休假(1P)</a></dd>
+					<dd><em></em><a href="#">大家其实都在等后天继续休假大家其实都在等后天继续休假大家其实都在等后天继续休假(1P)</a></dd>
+					<dd><em></em><a href="#">大家其实都在等后天继续休假(1P)</a></dd>
+					<dd><em></em><a href="#">大家其实都在等后天继续休假(1P)</a></dd>
+					<dd><em></em><a href="#">大家其实都在等后天继续休假(1P)</a></dd>
+					<dd><em></em><a href="#">大家其实都在等后天继续休假(1P)</a></dd>
+					<dd><em></em><a href="#">大家其实都在等后天继续休假大家其实都在等后天继续休假大家其实都在等后天继续休假(1P)</a></dd>
+					<dd class="dl_close">X</dd>
+				</dl>
+			</li>
+			<li class="parent_wrap">
+				<a class="con_menu_icon reading_order_icon" href="javascript:;"></a>
+				<div class="con_menu_tips">
+					<span>阅读顺序</span>
+					<div class="con_menu_tips_icon tips_down"></div>
+				</div>
+				<dl class="reading_order_dl">
+					<dd>从左到右</dd>
+					<dd class="dl_close">X</dd>
+				</dl>
+			</li>
+		</ul>
+		<ul class="b_m_two">
+			<li class="parent_wrap">
+				<a class="con_menu_icon praise_icon" href="javascript:;"></a>
+				<div class="con_menu_tips">
+					<span>顶一下</span>
+					<div class="con_menu_tips_icon tips_down"></div>
+				</div>
+			</li>
+			<li class="parent_wrap">
+				<a class="con_menu_icon heart_icon" href="javascript:;"></a>
+				<div class="con_menu_tips">
+					<span>收藏 </span>
+					<div class="con_menu_tips_icon tips_down"></div>
+				</div>
+			</li>
+			<li class="parent_wrap">
+				<a class="con_menu_icon share_icon" href="javascript:;"></a>
+				<div class="con_menu_tips">
+					<span>分享</span>
+					<div class="con_menu_tips_icon tips_down"></div>
+				</div>
+				<dl class="share_dl">
+					<dd>
+						<span class="dib-wrap">
+							<strong class="dib">分享</strong>
+							<i class="dib"><a href="javascript:;"><img src="images/s_weibo.png" alt="新浪微博" title="新浪微博" /></a></i>
+							<i class="dib"><a href="javascript:;"><img src="images/s_weixin.png" alt="微信" title="微信" /></a></i>
+							<i class="dib"><a href="javascript:;"><img src="images/s_qq.png" alt="QQ空间" title="QQ空间" /></a></i>
+						</span>
+					</dd>
+					<dd class="dl_close">X</dd>
+				</dl>
+			</li>
+			<li class="parent_wrap">
+				<a class="con_menu_icon disclose_icon" href="javascript:;"></a>
+				<div class="con_menu_tips">
+					<span>吐槽</span>
+					<div class="con_menu_tips_icon tips_down"></div>
+				</div>
+				<dl class="disclose_dl">
+					<dd>
+						<span class="dib-wrap">
+							<strong class="dib"></strong>
+							<i class="dib">
+								<input class="dis_input" type="text" placeholder="可以输入100字" />
+								<input class="dis_btn" type="submit" value="" /> 
+							</i>
+						</span>
+					</dd>
+					<dd class="dl_close">X</dd>
+				</dl>
+			</li>
+			<li class="parent_wrap">
+				<a class="con_menu_icon show_dis_icon" href="javascript:;"></a>
+				<div class="con_menu_tips con_menu_tips_big">
+					<span>吐槽太多了，怎么办？<br>
+隐藏/显示吐槽   It’s here  →</span>
+					<div class="con_menu_tips_icon tips_right"></div>
+				</div>
+			</li>
+		</ul>
+		<ul class="b_m_three">
+			<li class="parent_wrap">
+				<a class="con_menu_icon phone_icon" href="javascript:;"></a>
+				<div class="con_menu_tips">
+					<span>带走看</span>
+					<div class="con_menu_tips_icon tips_down"></div>
+				</div>
+			</li>
+		</ul>
+	</div>
 </div>
 <!--/Cartoon_Con_Box-->
+
+
+
+<script type="text/javascript">
+$(function () {
+
+	//操作菜单
+	(function(){
+		var o = $(".con_menu_tips_big");
+		o.show();
+		setTimeout(function(){
+			o.hide();
+		},5000)
+
+		//显示提示信息并绑定click控制dl显示
+		$(".con_menu_icon").hover(function(){
+			$(this).parent().find(".con_menu_tips").show()
+		},function () {
+			$(this).parent().find(".con_menu_tips").hide()
+		}).click(function (){
+			$(".parent_wrap dl").hide();
+			var dl = $(this).parent().find("dl");
+			dl && dl.show()
+		})
+
+		//关闭按钮
+		$(".dl_close").click(function () {
+			$(this).parent().hide();
+		})
+
+		//顶一下并覆盖之前绑定的click事件
+		$(".praise_icon").click(function () {
+	        $.ajax({
+	            url: "#",
+	            type: 'POST',
+	            dataType: "json",
+	            data: ''
+	        })
+	        .done(function(d) {
+	            return;
+	        })
+	        .fail(function() {
+	           
+	        });
+		})
+
+		//收藏
+		$(".heart_icon").click(function () {
+	        $.ajax({
+	            url: "#",
+	            type: 'POST',
+	            dataType: "json",
+	            data: ''
+	        })
+	        .done(function(d) {
+	            return;
+	        })
+	        .fail(function() {
+	           
+	        });
+		})
+
+	})();
+
+
+	//阅读进度
+	var denominator = 3,
+		numerator 	= 4;
+
+	(function (d,n) {
+		var bar = $("#pro_bar"),
+			dn = bar.find("em").eq(0),
+			nn = bar.find("em").eq(1),
+			b = $("#pro_bar_show"),
+			w = parseInt((d/n)*100) + '%';
+		dn.html(d);nn.html(n);
+		b.css("width",w)
+	})(denominator,numerator);
+
+	//目录
+	$(".catalog_dl em").each(function (i) {
+		$(this).html((i+1)+".")
+	})
+
+	//开关灯
+	$("#off").click(function(){
+		$("body").addClass("off")
+	})
+	$("#on").click(function(){
+		$("body").removeClass("off")
+	})
+
+})
+</script>
 
 </body>
 </html>
